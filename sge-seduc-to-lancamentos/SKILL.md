@@ -1,15 +1,15 @@
 ---
 name: sge-seduc-to-lancamentos
-description: Lança no SGE da SEDUC-TO frequência diária, conteúdo aplicado e planejamento das eletivas (ementa e plano mensal). Use quando o professor pedir para lançar faltas, conteúdos ou planejamentos no SGE.
+description: Lança no SGE da SEDUC-TO frequência diária, conteúdo aplicado, planejamento das eletivas (ementa e plano mensal) e notas do bimestre. Use quando o professor pedir para lançar faltas, conteúdos, planejamentos ou notas no SGE.
 ---
 
 # Lançamentos no SGE da SEDUC-TO
 
-**Versão 1.0 · 05/11/2026**
+**Versão 1.1 · 06/11/2026**
 Guia genérico para professores da rede estadual de Tocantins (SEDUC-TO).
 Sistema: https://sge.seduc.to.pontoid.com.br/
 
-Este guia mostra como lançar frequência diária, conteúdo aplicado e o planejamento das eletivas no SGE, com as armadilhas já encontradas. Quase todos os erros no SGE acontecem por clicar ou digitar no lugar errado depois que a tela muda (rolagem, lista aberta, aviso na frente). Por isso, olhe a tela antes de cada clique e confira o resultado depois de cada ação.
+Este guia mostra como lançar frequência diária, conteúdo aplicado, o planejamento das eletivas e as notas do bimestre no SGE, com as armadilhas já encontradas. Quase todos os erros no SGE acontecem por clicar ou digitar no lugar errado depois que a tela muda (rolagem, lista aberta, aviso na frente). Por isso, olhe a tela antes de cada clique e confira o resultado depois de cada ação.
 
 ## Regras gerais
 
@@ -146,6 +146,26 @@ O professor costuma enviar arquivos .md com a Ementa e os Planos Mensais de cada
 
 Ordem que funcionou: as Ementas primeiro, depois os planos de uma turma (agosto a dezembro) e, por último, os da outra turma.
 
+## 4.1 Notas do bimestre (média bimestral)
+
+Use a turma regular (não a eletiva diversificada). Caminho: Turma > Notas (ou Avaliação > Notas da Avaliação).
+
+**Lançar as notas no SGE:**
+1. Em Avaliação > Notas da Avaliação, escolha o Período (bimestre) e o Componente Curricular (a disciplina da base, ex.: BIOLOGIA, nunca PRÁTICAS EXPERIMENTAIS).
+2. Digite a nota na coluna NT de cada estudante.
+3. Clique em Salvar notas das avaliações > Sim > OK. Sem salvar, nada é gravado.
+
+**Enviar as notas para os alunos (Notas):**
+1. Em Notas, escolha a disciplina da base.
+2. Clique em Preencher Notas/Faltas.
+3. Marque Notas e Faltas do bimestre corrente.
+4. Clique em Preencher > Sim. Isso preenche e substitui os valores atuais e calcula as médias.
+
+**Armadilhas:**
+- Ao trocar de turma, o componente volta para PRÁTICAS EXPERIMENTAIS. Antes de preencher, abra a seta de Notas e escolha BIOLOGIA. Se a tela mostrar "bloquear notas", o componente está errado.
+- Alunos transferidos ou que saíram da escola não recebem nota. Confira a lista do SGE e pule quem não aparece nela ou estiver marcado como transferido.
+- A média da planilha (coluna Média Bimestral) é o valor que vai no campo NT. Não recalcule.
+
 ## 5. Armadilhas já encontradas
 
 - **Rolagem:** com o cursor sobre uma caixa de texto, só a caixa rola. Role com o cursor na margem esquerda do formulário.
@@ -161,15 +181,16 @@ Ordem que funcionou: as Ementas primeiro, depois os planos de uma turma (agosto 
 
 Ao terminar, informe em poucas linhas: o que foi salvo (turma, tipo, período), as escolhas feitas por falta de opção no SGE e o que ficou pendente (ex.: envio). Não repita o conteúdo lançado.
 
-## 7. Ainda não coberto
+## 8. Ainda não coberto
 
-- Planejamento das disciplinas da Base (turmas regulares): será ensinado em alguma atualização futura.
-- Notas, Avaliação, Parecer e Tarefas.
+- Planejamento das disciplinas da Base (turmas regulares): será ensinado em 2027.
+- Parecer e Tarefas.
 
 Em telas fora deste guia, descreva ao professor o que aparece e confirme antes de salvar.
 
 ## Histórico de versões
 
+- **1.1 · 06/11/2026** · Notas do bimestre: lançamento na Avaliação, envio aos alunos em Notas (Preencher Notas/Faltas), armadilha do componente e alunos transferidos.
 - **1.0 · 05/11/2026** · Primeira versão: frequência diária, conteúdo aplicado, ementa e plano de aula mensal das eletivas, equivalência das Competências Gerais e armadilhas do SGE.
 
 Como atualizar: correções e ajustes sobem a versão em 0.1 (1.1, 1.2); módulos novos, como o planejamento da Base, sobem para 2.0. Registre cada mudança aqui, com a data.
