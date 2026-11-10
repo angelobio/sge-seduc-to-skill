@@ -5,16 +5,15 @@ description: Lança no SGE da SEDUC-TO frequência diária, conteúdo aplicado, 
 
 # Lançamentos no SGE da SEDUC-TO
 
-**Versão 1.2 · 10/11/2026**
+**Versão 1.4 · 10/11/2026**
 Guia genérico para professores da rede estadual de Tocantins (SEDUC-TO).
 Sistema: https://sge.seduc.to.pontoid.com.br/
 
 Este guia mostra como lançar frequência diária, conteúdo aplicado, o planejamento das eletivas e as notas do bimestre no SGE, com as armadilhas já encontradas. Quase todos os erros no SGE acontecem por clicar ou digitar no lugar errado depois que a tela muda (rolagem, lista aberta, aviso na frente). Por isso, olhe a tela antes de cada clique e confira o resultado depois de cada ação.
-
 ## Regras gerais
 
 1. **Login é do professor.** Não digite senha nem dados de acesso. Se a sessão cair, peça que ele entre de novo.
-2. **Confira a turma antes de tudo.** O seletor Turma traz a turma regular (ex.: 13.04/EM.INT-ANL - Integral, etiqueta Escolarização) e a eletiva com o mesmo número (opção [Diversificada] com CIÊNCIACAST, etiqueta Diversificada). São registros diferentes.
+2. **Confira a turma antes de tudo.** O seletor Turma traz a turma regular (ex.: 13.04/EM.INT-ANL - Integral, etiqueta Escolarização) e a eletiva com o mesmo número (opção [Diversificada] com o nome da eletiva, etiqueta Diversificada). São registros diferentes.
 3. **Salve item por item.** Se a conexão cair com um formulário aberto, o que não foi salvo se perde. Depois de salvar aparece "Sucesso!"; clique em OK antes de seguir.
 4. **Não exclua e não envie sem pedido.** Salvar faz parte do lançamento pedido. Excluir e enviar (submeter) planejamentos são decisões do professor.
 5. **Opção que não existe no SGE:** escolha a mais próxima e registre a escolha no resumo final. O professor prefere isso a interromper o trabalho.
@@ -40,7 +39,6 @@ Este guia mostra como lançar frequência diária, conteúdo aplicado, o planeja
 9. **Clique que não registra:** clique, espere 1 a 2 segundos e confira. Se continuar P, clique uma vez e confira de novo. Evite cliques seguidos, porque o segundo clique registrado desfaz o primeiro.
 10. Antes de salvar, confira que só os estudantes indicados estão com F.
 11. Salvar (fim da lista). Mensagem esperada: "Frequência salva com sucesso!".
-
 ## 2. Conteúdo aplicado
 
 1. Selecione a turma (na eletiva, a opção [Diversificada]).
@@ -53,23 +51,30 @@ Este guia mostra como lançar frequência diária, conteúdo aplicado, o planeja
 8. Salvar.
 
 Como organizar os registros:
-- Aulas geminadas com o mesmo conteúdo podem ir num só registro, com os dois horários marcados. Quando cada aula tem conteúdo próprio (caso das eletivas em 2026), faça um registro por horário: cada dia gera 2 registros.
+- Aulas geminadas com o mesmo conteúdo podem ir num só registro, com os dois horários marcados. Quando cada aula tem conteúdo próprio, faça um registro por horário.
 - Lance apenas os dias já liberados (em vermelho no Diário de Classe). Dias futuros ficam para depois.
 - Confira o que já foi lançado antes de começar, para não duplicar.
-- Datas sem aula correspondente no plano: não invente conteúdo. Combine com o professor (em 2026 a orientação foi registrar como atividades a definir).
+- Datas sem aula correspondente no plano: não invente conteúdo. Combine com o professor.
 
-Turmas de Estudo Orientado (Itinerário Formativo):
-- Cada dia tem 3 aulas. Lance um registro por horário, cada um com sua habilidade, objeto e atividade, salvo se o professor indicar o contrário.
-- Lance somente até a data pedida pelo professor, mesmo que o Diário mostre dias pendentes depois dela. Dias sem aula não recebem registro.
-- Ordem do formulário: Data da Aula, Componente Curricular, Horário e só depois os textos. Escolher o Componente ou o Horário redesenha o formulário e pode apagar o que já foi digitado.
-- O campo "Habilidades" tem bug e não grava. Escreva a habilidade no campo "Outros" logo abaixo de "Habilidades", e não no campo de busca.
-- O "Objeto de Conhecimento" também tem busca: escreva no campo "Outros" logo abaixo dele.
-- Atividades/Observações é o campo de texto no fim do formulário.
-- Antes de digitar em cada caixa, clique nela e tecle Ctrl+A. Sem isso, o texto antigo fica e duplica.
-- Tire uma captura antes de clicar em cada campo de conteúdo: a tela muda de posição depois de cada escolha e rolagem.
-- Para o próximo horário, use a seta ao lado de Salvar e escolha Salvar e Adicionar Novo. Confirme com OK.
-- Conferência: Conteúdo Aplicado, Listagem de Registros (com Data Início e Data Final) e o contador do Mapa de Registros.
-
+Turmas de Estudo Orientado (Itinerário Formativo, ex.: 33.03/EM.INT-ANL):
+- Cada dia tem 3 aulas. Um registro por horário, cada um com sua habilidade, objeto e atividade, salvo se o professor indicar o contrário.
+- Os dias de aula variam por turma: a 33.03 não tem o mesmo calendário das outras turmas de Estudo Orientado. Não presuma a sequência de uma turma em outra; confirme os dias em vermelho no Diário de Classe da turma em questão.
+- Os horários mudam por data: na 33.03, até 23/09/2026 as aulas eram 08:20, 10:20 e 11:10; de 30/09 em diante aparecem 09:30, 10:20 e 11:10 (confirmar com o professor). Leia a lista de Horário conforme a data antes de escolher.
+- Redação das habilidades: copie a habilidade como está no documento do projeto (BNCC, Referenciais ou Descritores), sem resumir.
+- Lance somente até a data pedida pelo professor, mesmo que o Diário mostre dias pendentes depois dela. Dias sem aula (ex.: 14/10 em 2026) não recebem registro.
+- Ordem obrigatória no formulário: (1) Data da Aula, (2) Componente Curricular, (3) Horário, (4) textos. Escolher o Componente ou o Horário redesenha o formulário e apaga o que já foi digitado nos campos de conteúdo. Digite os textos só depois dos dois primeiros.
+- Campo "Habilidades" (com busca) tem bug: mostra "Nenhum resultado encontrado" e não grava. Escreva a habilidade completa no campo "Outros" que fica logo abaixo do rótulo OUTROS, em baixo de "Habilidades" (não no campo de busca).
+- "Objeto de Conhecimento" também tem busca. Escreva o objeto no campo "Outros" logo abaixo de "Objeto de Conhecimento".
+- Atividades/Observações: campo de texto no fim do formulário.
+- Antes de digitar em cada campo, clique no centro da caixa e tecle Ctrl+A; depois digite. Sem isso, o texto antigo fica e aparece duplicado.
+- A tela muda de posição depois de cada escolha (Componente, Horário) e de cada rolagem. Tire uma captura antes de clicar em qualquer campo de conteúdo; clique fora da caixa (ex.: na margem) se a seleção de texto da página ficar marcada.
+- Componente Curricular: o primeiro clique depois de digitar a data às vezes não abre a lista. Se não aparecer ESTUDO ORIENTADO, clique de novo e confira com captura. Se a lista fechar sozinha, clique uma terceira vez.
+- Salvar: use a seta ao lado de Salvar e escolha "Salvar e Adicionar Novo" para seguir ao próximo horário. Depois de "Sucesso! Dados salvos com sucesso!", clique em Ok.
+- Listagem de Registros (Conteúdo Aplicado): serve para todas as disciplinas. Filtros: Período, Mês, Data Início e Data Final (digite ddmmaaaa e tecle Tab), Situação, Componente Curricular (com a opção Todos quando há mais de um componente) e busca. Use Data Início e Data Final para conferir cada dia lançado. O filtro some ao trocar de aba. Leia o texto da página (get_page_text), pois a lista pagina (10, 15, 20, 25 ou 100 por página).
+- Resumo de Registros: mostra Previstos, Registrados e Faltantes por bimestre e componente. Considera só os conteúdos aplicados até a data atual. Use-o para confirmar que nada ficou faltando depois do lançamento.
+- Mapa de Registros: dias em vermelho são pendentes, verdes concluídos e azuis futuros ou de hoje. O contador de cada mês ("X de Y registrados") mostra quantos horários já foram lançados.
+- Alerta "Não é possível lançar conteúdo aplicado, pois a data escolhida é maior que a data atual": redigite a data, confira e siga. Em 2026 o alerta apareceu uma vez para 04/11 e não alterou os dados.
+- Se o navegador não responder (tempo esgotado ou janela coberta), não repita a ação às cegas: leia a página com get_page_text, confira o que foi salvo e só então continue.
 ## 3. Planejamento das eletivas
 
 Na turma [Diversificada], o Tipo do Planejamento tem três opções:
@@ -177,11 +182,10 @@ Use a turma regular (não a eletiva diversificada). Caminho: Turma > Notas (ou A
 - Ao trocar de turma, o componente volta para PRÁTICAS EXPERIMENTAIS. Antes de preencher, abra a seta de Notas e escolha BIOLOGIA. Se a tela mostrar "bloquear notas", o componente está errado.
 - Alunos transferidos ou que saíram da escola não recebem nota. Confira a lista do SGE e pule quem não aparece nela ou estiver marcado como transferido.
 - A média da planilha (coluna Média Bimestral) é o valor que vai no campo NT. Não recalcule.
-
 ## 5. Armadilhas já encontradas
 
 - **Rolagem:** com o cursor sobre uma caixa de texto, só a caixa rola. Role com o cursor na margem esquerda do formulário.
-- **Texto no campo errado:** depois de rolar, a posição clicada pode ser outro campo. Já caiu texto do Autor em Forma de Oferta e texto da Unidade Temática na busca do Componente. Confira a tela antes de digitar.
+- **Texto no campo errado:** depois de rolar, a posição clicada pode ser outro campo. Confira a tela antes de digitar.
 - **Lista aberta:** com uma lista de seleção aberta, o que se digita vai para a busca dela. Feche com Esc e limpe com Ctrl+A e Delete.
 - **Período:** logo depois de escolher o Componente, o primeiro clique no Período às vezes só fecha a lista anterior. Clique de novo.
 - **Seleções rápidas demais** podem não registrar. Espere 1 segundo entre escolher numa lista e o próximo clique.
@@ -193,15 +197,26 @@ Use a turma regular (não a eletiva diversificada). Caminho: Turma > Notas (ou A
 
 Ao terminar, informe em poucas linhas: o que foi salvo (turma, tipo, período), as escolhas feitas por falta de opção no SGE e o que ficou pendente (ex.: envio). Não repita o conteúdo lançado.
 
+## 7. Dados locais
+
+Esta seção fica para o professor preencher com os dados da própria escola antes de usar a skill.
+
+- Escola: nome da escola e município.
+- Eletivas: nome da eletiva (componente ELETIVAS - 40H), opção [Diversificada] de cada turma, código da turma e horários.
+- Turmas regulares no seletor: as turmas da escola, com etiqueta e horário.
+
 ## 8. Ainda não coberto
 
-- Planejamento das disciplinas da Base (turmas regulares): será ensinado em 2027.
+- Planejamento das disciplinas da Base (turmas regulares).
 - Parecer e Tarefas.
 
 Em telas fora deste guia, descreva ao professor o que aparece e confirme antes de salvar.
 
 ## Histórico de versões
 
+- **1.4 · 10/11/2026** · Estudo Orientado: dias de aula variam por turma; horários mudam por data (33.03: a partir de 30/09); Listagem e Resumo de Registros descritos (valem para todas as disciplinas); alerta de data; redação literal das habilidades.
+- **1.3 · 10/11/2026** · Estudo Orientado: ordem do formulário (componente e horário antes dos textos, pois a escolha apaga o que foi digitado), dropdown de componente que exige nova tentativa, Ctrl+A antes de digitar, conferência pela Listagem com filtro de datas, e cuidado com janela coberta.
+- **1.2 · 10/11/2026** · Conteúdo Aplicado em Estudo Orientado: campo "Habilidades" com bug, texto colado em "Outros"; "Objetos de Conhecimento" também em "Outros"; 3 aulas por dia; lançamento limitado ao período pedido pelo professor.
 - **1.1 · 06/11/2026** · Notas do bimestre: lançamento na Avaliação, envio aos alunos em Notas (Preencher Notas/Faltas), armadilha do componente e alunos transferidos.
 - **1.0 · 05/11/2026** · Primeira versão: frequência diária, conteúdo aplicado, ementa e plano de aula mensal das eletivas, equivalência das Competências Gerais e armadilhas do SGE.
 
