@@ -5,7 +5,7 @@ description: Lança no SGE da SEDUC-TO frequência diária, conteúdo aplicado, 
 
 # Lançamentos no SGE da SEDUC-TO
 
-**Versão 1.1 · 06/11/2026**
+**Versão 1.2 · 10/11/2026**
 Guia genérico para professores da rede estadual de Tocantins (SEDUC-TO).
 Sistema: https://sge.seduc.to.pontoid.com.br/
 
@@ -57,6 +57,18 @@ Como organizar os registros:
 - Lance apenas os dias já liberados (em vermelho no Diário de Classe). Dias futuros ficam para depois.
 - Confira o que já foi lançado antes de começar, para não duplicar.
 - Datas sem aula correspondente no plano: não invente conteúdo. Combine com o professor (em 2026 a orientação foi registrar como atividades a definir).
+
+Turmas de Estudo Orientado (Itinerário Formativo):
+- Cada dia tem 3 aulas. Lance um registro por horário, cada um com sua habilidade, objeto e atividade, salvo se o professor indicar o contrário.
+- Lance somente até a data pedida pelo professor, mesmo que o Diário mostre dias pendentes depois dela. Dias sem aula não recebem registro.
+- Ordem do formulário: Data da Aula, Componente Curricular, Horário e só depois os textos. Escolher o Componente ou o Horário redesenha o formulário e pode apagar o que já foi digitado.
+- O campo "Habilidades" tem bug e não grava. Escreva a habilidade no campo "Outros" logo abaixo de "Habilidades", e não no campo de busca.
+- O "Objeto de Conhecimento" também tem busca: escreva no campo "Outros" logo abaixo dele.
+- Atividades/Observações é o campo de texto no fim do formulário.
+- Antes de digitar em cada caixa, clique nela e tecle Ctrl+A. Sem isso, o texto antigo fica e duplica.
+- Tire uma captura antes de clicar em cada campo de conteúdo: a tela muda de posição depois de cada escolha e rolagem.
+- Para o próximo horário, use a seta ao lado de Salvar e escolha Salvar e Adicionar Novo. Confirme com OK.
+- Conferência: Conteúdo Aplicado, Listagem de Registros (com Data Início e Data Final) e o contador do Mapa de Registros.
 
 ## 3. Planejamento das eletivas
 
